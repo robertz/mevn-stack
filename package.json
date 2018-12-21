@@ -6,7 +6,7 @@
   "scripts": {
     "dev:server": "nodemon server/app.js",
     "dev:client": "cd client && webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "build": "cd client && yarn run build && cd .. && NODE_ENV=production nodemon server/app.js"
+    "start": "cd client && yarn run build && cd .. && NODE_ENV=production nodemon server/app.js"
   },
   "author": "Robert Zehnder",
   "license": "ISC"
